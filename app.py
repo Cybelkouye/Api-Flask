@@ -26,7 +26,7 @@ def cypher(text_file_contents,key):
     return test
 
 def decypher():
-    key ='test'
+    key ='testkey'
     keys = hsh.sha256(key.encode('utf-8')).digest()
     test1 = ''
     f_sortie = 'òé¤åí<\x1c\x16éJ'
